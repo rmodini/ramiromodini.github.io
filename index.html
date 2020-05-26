@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ramiro's Portfolio</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/css/swiper.min.css"
+        />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <script src="js/modernizr-2.7.1.js"></script>
+
+        <!-- Fav and touch icons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                    >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <h1 class="logo">Ramusoft</h1>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+        </div>
+
+        <!--Header-->
+        <section id="header">
+            <div class="container">
+                <div class="row header-text">
+                    <div class="col-sm-4 pull-rigth prof">
+                        <img class="prof-pic" src="img/0.jpeg" />
+                    </div>
+                    <div class="col-sm-8 pull-right text-right">
+                        <div class="margin-100">
+                            <h1>Welcome to my website!</h1>
+                            <h3>
+                                I'm Ramiro Modini, full stack web and app
+                                developer.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="iphone col-sm-4 text-center wow fadeInUp">
+                        <div class="iphone-content">
+                            <div class="phone-text">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-code fa-2x"></i>
+                                        <p>Native app development</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-android fa-2x"></i>
+                                        <i class="fa fa-heart fa-1x"></i>
+                                        <i class="fa fa-apple fa-2x"></i>
+                                        <p>For both Android and iOS</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-magic fa-2x"></i>
+                                        <p>Modern UX and UI design</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <img
+                            class="header-img"
+                            src="img/frame.png"
+                            alt="Header Image"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Main 1-->
+        <section id="main1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="black margin-60">WORK</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 margin-30">
+                        <div>
+                            <img class="icon" src="/img/icon.png" />
+                            <h2>Learn Japanese Kana</h2>
+                        </div>
+                        <br />
+                        <p>
+                            Project built with React Native and available now on
+                            the Play Store and soon on the Apple Store.
+                            Educational mobile application to learn to read and
+                            understand Japanese hiragana and katakana! With a
+                            very effective card swiping system, divided in two
+                            parts: first memorize and then practice (take a
+                            quiz) you are going to learn to read and understand
+                            Japanese kana perfectly in less than 2 weeks.
+                            Includes a very useful Resources section where you
+                            can find everything you need to know to start
+                            learning Japanese from scratch (tables, diacritics,
+                            phonetic marks, and more!)
+                        </p>
+                        <br />
+
+                        <br />
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.ramusoft.learnjapanesekana"
+                            class="btn btn-secondary btn-lg"
+                            >View on Google Play
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInUpBig">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-home.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-select.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-quiz.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-quiz2.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-complete.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/kana-screen-resources.png" />
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <!-- sdf -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Main 2-->
+        <section id="main2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 wow fadeInUpBig">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="img/busca-mate-main.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/busca-mate-add.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/busca-mate-select.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/busca-mate-info.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/busca-mate-report.png" />
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 margin-30">
+                        <div>
+                            <img class="icon" src="/img/icon2.png" />
+                            <h2>BuscaMate</h2>
+                        </div>
+                        <br />
+                        <p>
+                            Project that uses the Google Maps API and PostgreSQL
+                            database. Users can look for yerba mate selling
+                            locations anywhere, anytime! Many migrants,
+                            specially from Latin America, have the problem that
+                            they cannot quickly and effectively locate a store
+                            to buy yerba mate near their new city. This app is
+                            here to solve that problem! It allows users to
+                            locate yerba mate selling points anywhere in the
+                            world, as well as the option to add a new selling
+                            location if it is not already on the map and making
+                            the database bigger and better to everyone.
+                            Available now on the Play Store and soon on the
+                            Apple Store.
+                        </p>
+                        <br />
+
+                        <br />
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.ramusoft.buscamate"
+                            class="btn btn-secondary btn-lg"
+                            >View on Google Play</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Bottom-->
+        <section id="bottom">
+            <div class="container">
+                <div class="row margin-40">
+                    <div class="col-sm-12 text-center">
+                        <ul class="list-inline social">
+                            <li class="wow slideInLeft">
+                                <a
+                                    href="https://www.linkedin.com/in/ramiro-modini-250006144/"
+                                    ><i class="fa fa-linkedin fa-2x"></i
+                                ></a>
+                            </li>
+                            <li class="wow slideInDown">
+                                <a
+                                    href="https://play.google.com/store/apps/developer?id=Ramusoft&hl=en"
+                                >
+                                    <img
+                                        src="./img/logo-google-playstore.svg"
+                                        class="icon-store"
+                                /></a>
+                            </li>
+
+                            <li class="wow slideInRight" data-wow-delay="0.3s">
+                                <a href="https://github.com/rmodini"
+                                    ><i class="fa fa-github fa-2x"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p>
+                            Contact me nice and easy through my email:
+                            rmodini@hotmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p>
+                            <small
+                                >Copyright &copy; Ramusoft. All rights
+                                reserved.</small
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script>
+            window.jQuery ||
+                document.write(
+                    '<script src="js/jquery-2.1.0.min.js"><\/script>'
+                );
+        </script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            new WOW().init();
+        </script>
+        <script>
+            var mySwiper = new Swiper(".swiper-container", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </body>
+</html>
