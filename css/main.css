@@ -402,10 +402,18 @@ footer {
    ========================================================================== */
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    #header {
+        height: 700px;
+    }
+
     .header-img {
         position: absolute;
         margin-left: -120px;
         left: 0;
+    }
+
+    .iphone {
+        display: none;
     }
 
     #main1 {
@@ -426,6 +434,14 @@ footer {
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) {
+    #header {
+        height: 900px;
+    }
+
+    .phone {
+        margin-left: 15px;
+    }
+
     .header-img {
         position: absolute;
         margin-left: -30px;
